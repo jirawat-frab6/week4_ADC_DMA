@@ -51,8 +51,8 @@ UART_HandleTypeDef huart2;
 
 /* USER CODE BEGIN PV */
 
-uint32_t ADC_data[2] = {0},time_buffer = 0,ref_time = 0,delay_time = 0,a = 0;
-uint16_t led_status = 0,state = start_state;
+uint32_t ADC_data[2] = {0},ref_time = 0,delay_time = 0,a = 0;
+uint16_t state = start_state;
 
 /* USER CODE END PV */
 
